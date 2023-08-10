@@ -1,0 +1,33 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    
+    /* нижние 4 строчки нужны для того, чтобы отцентрировать все элементы */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 350px; /* ширина */
+    background-color: white; /* цвет фона */
+    padding: 20px; /* внутренний отступ */
+    border-radius: 20px; /* округление углов */
+    text-align: center; /* центрирует текст (выравнивание), параметр можно задать любой */
+    box-shadow: 0 0 5px 2px hsl(212, 45%, 89%); /* задает тень объекта */
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card h3 {
+    color: hsl(218, 44%, 22%);
+}
+
+.card p {
+    color: hsl(212, 45%, 89%);
+}
+
